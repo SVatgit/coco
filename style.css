@@ -5,7 +5,7 @@ body{
 .container
 {
     
-    width: 80%;
+    max-width: 100%;
     height: auto;
     background-color: rgb(255, 241, 241);
     margin:auto;
@@ -13,7 +13,7 @@ body{
 .logo
 {
 float: left;
-
+max-width: 100%;
 
 }
 .search
@@ -78,13 +78,13 @@ float: left;
     display: block;
 }
 .banner{
-    width: 1079px;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
 
 }
 .banner img{
-    width: 100%;
+  max-width: 100%;
     height:auto ;
 }
 .content
@@ -93,7 +93,7 @@ background-color: rgb(255, 215, 189);
 }
 .content-art
 {
-    width: 700px;
+   max-width: 75%;
     height: auto;
     padding: 25px;
     background-color: cornsilk;
@@ -133,7 +133,7 @@ padding: 25px;
 {
     background-color:rgb(63, 25, 11) ;
     color: rgb(255, 255, 255);
-    width: 1030px;
+  max-width: 100%;
     height: auto;
     padding: 25px;
 }
